@@ -1,0 +1,49 @@
+This file contains all the meta information regarding the columns described in the CSV files. We have provided 3 CSV files:
+1. dim_districts
+2. dim_date
+3. fact_stamps
+
+
+---------------------------------------------------------------------------------------------
+
+Column description for dim_districts:
+The table contains information about districts.
+
+- dist_code: This column represents the district code or identifier for each district.
+
+- district: This column represents the name of the district.
+
+---------------------------------------------------------------------------------------------
+
+Column description for dim_date:
+This table contains the dates at the monthly level. Please be aware that the fiscal year of Telangana spans from April to March.
+
+- month: This column contains the starting date of each month.
+
+- Mmm: This column contains the name of the month.
+
+- quarter: This column contains the associated quarter for each particular month.  
+
+- fiscal_year: This column contains the corresponding fiscal year of each month.
+
+---------------------------------------------------------------------------------------------
+
+Column description for fact_stamps:
+The table provides data on the revenue generated from document registrations and estamp challan payments aggregated at the district and monthly level.
+
+
+- dist_code: This column represents the district code.
+
+- month: This column represents the starting date of each month.
+
+- documents_registered_cnt: This column represents the total count of documents registered.
+
+- documents_registered_rev: This column represents the total revenue generated from the registered documents.
+
+- estamps_challans_cnt: This column represents the count of e-stamps challans.
+
+- estamps_challans_rev: This column represents the revenue generated from e-stamps challans.
+
+
+---------------------------------------------------------------------------------------------
+
