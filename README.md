@@ -14,7 +14,7 @@ Key Findings
 Revenue trends show [key finding #1].
 Districts such as [X, Y, Z] have shown the highest growth between FY 2019 and 2022.
 The introduction of e-Stamp challan has [positive/negative/neutral] impact on document registration.
-(Expand on more findings as appropriate.)
+
 
 Tools & Technologies
 Power BI: Used for data visualization and dashboard creation.
